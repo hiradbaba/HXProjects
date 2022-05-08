@@ -1,0 +1,46 @@
+Simple backtracking---------------------------
+
+board       nodes expanded      time elapsed
+s1               372               0.0109
+s2              12161              0.4089       
+s3               193               0.0049
+s4               392               0.0119
+s5             1904541            65.9218
+
+Note: Some say that s5 is the hardest soduku problem.(http://apollon.issp.u-tokyo.ac.jp/~watanabe/sample/sudoku/index.html)
+
+MRV in Row -------------------------------------
+
+board       nodes expanded      time elapsed
+s1               108               0.0039
+s2              180736             7.1139       
+s3                44               0.0019
+s4               391               0.0139
+s5             1308017            51.9741
+
+MRV in Row + Col --------------------------------
+
+board       nodes expanded      time elapsed
+s1                63               0.0019
+s2              130436             6.2014       
+s3               162               0.0059
+s4               391               0.0199
+s5             1273584            59.5738
+
+Degree Heuristic --------------------------------
+
+board       nodes expanded      time elapsed
+s1              643340            35.5749
+
+MRV in Row + Col Consistent----------------------
+
+board       nodes expanded      time elapsed
+s1                52               0.0598
+s2              13835             20.6668  
+s3                99               0.1495
+s4               240               0.6781
+s5             150062            233.0861
+
+
+
+
